@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ra'uf</title>
+
+    <link rel="icon" href="Photos/icon.png">
+
+    <!--Css Link -->
+    <link rel="stylesheet" href="foodsty.css">
+
+</head>
+
+<body style="background-image: url(Photos/Login/pp.jpg); background-repeat:no-repeat; background-size: cover;">
+    <nav class="navbar">
+        <h1>Ra'uf</h1>
+        <div class="navbar-menu">
+            <p class="navbar-menus"><a href="foodindex.html">Home</a></p>
+            <p class="navbar-menus"><a href="menu.html">Menus</a></p>
+            <p class="navbar-menus"><a href="service.html">Service</a></p>
+            <p class="navbar-menus"><a href="booktable.html">Book Table</a></p>
+            <p class="navbar-menus"><a href="login.html"><img class="menus-img" src="Photos/login.png"></a></p>
+            <p class="navbar-menus"><a href="foodindex.html"><img class="menus-img" src="Photos/cart.png"></a></p>
+            <button class="navbar-menus" id="ordrebtn">Order Online</button>
+        </div>
+        <div class="side-list">
+            <img src="Photos/list.png" onclick="sidenav()" id="toggle-button">
+        </div>
+    </nav>
+
+    <!--Side-navbar-->
+
+    <nav class="side-navbar">
+        <div class="side-navbar-menu">
+            <p onclick="closebutton()" id="colsee">X</p>
+            <p class="side-navbar-menus"><a href="foodindex.html">Home</a></p>
+            <p class="side-navbar-menus"><a href="menu.html">Menus</a></p>
+            <p class="side-navbar-menus"><a href="service.html">Service</a></p>
+            <p class="side-navbar-menus"><a href="booktable.html">Book Table</a></p>
+            <p class="side-navbar-menus"><a href="login.html"><img class="menus-img" src="Photos/login.png"></a></p>
+            <p class="side-navbar-menus"><a href="foodindex.html"><img class="menus-img" src="Photos/cart.png"></a></p>
+            <button class="side-navbar-menus" id="side-ordrebtn">Order Online</button>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <div>
+            <img src="Photos/Login/ll (1).png" id="img-log">
+        </div>
+        <div>
+            <form action="" id="fo-d">
+                <div class="inside-form">
+                    <h1>Login</h1>
+                    <p>Name :</p> <input type="text">
+                    <p>Password :</p><input type="password">
+                </div>
+
+                <button id="sub-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Javascript link-->
+    <script src="foodjava.js"></script>
+</body>
+
+</html>

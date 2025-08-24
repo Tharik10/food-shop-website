@@ -1,0 +1,538 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF9900;
+    padding: 10px;
+    width: 100%;
+    padding-bottom: 5px;
+    z-index: 6;
+    box-shadow: rgba(5, 1, 1, 0.87) 0px 20px 30px -10px;
+    margin-top: 0px;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.menus-img {
+    width: 18px;
+    height: 18px;
+    margin-left: -8px;
+    margin-top: 5px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+    align-items: center;
+    margin-left: 39%;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#ordrebtn {
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    align-items: center;
+}
+
+/*  Side Navbar*/
+
+.side-navbar {
+    display: flex;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    background-color: #03254c;
+    transition: 1s;
+    z-index: 9;
+}
+
+#colsee {
+    color: #fff;
+    margin-left: 230%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.side-navbar-menus a {
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.side-navbar-menus p {
+    margin-top: 16px;
+}
+
+.side-list img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#side-ordrebtn {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+/* Slide show*/
+.slide-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.slider {
+    margin-top: 200px;
+    width: 95%;
+    height: 500px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(7, 1, 1);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*  offered Food*/
+.offer-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    gap: 40px;
+    padding: 10px;
+}
+
+.div-h1 {
+    display: block;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box {
+    flex-basis: 220px;
+    width: 180px;
+    height: 330px;
+    background-color: #FF9900;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.box-img {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid #03254c 5px;
+
+}
+
+.box h4 {
+    color: black;
+    font-size: 15px;
+    margin-left: 27%;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.box h1 {
+    color: black;
+    margin-left: 35%;
+    margin-top: 3px;
+    font-size: 40px;
+    display: block;
+    font-style: italic;
+}
+
+.box button {
+    background-color: #03254c;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 27%;
+    display: flex;
+    color: white;
+}
+
+#ad-cart {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+}
+
+/* About Page*/
+
+.about-box {
+    margin-top: 50px;
+    background-color: #03254c;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.inside-about-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-box h1 {
+    color: White;
+    width: 100px;
+    display: inline;
+    margin-top: 50px;
+}
+
+.about-box p {
+    color: white;
+    margin-top: 310px;
+    margin-left: -50px;
+    padding: 10px;
+}
+
+.about-box img {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding: 80px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+/*   Footer*/
+
+.footer-container {
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.inside-footer-container {
+    justify-content: space-around;
+    display: flex;
+    flex-basis: 30%;
+    margin-left: 10px;
+}
+
+.footer-container img {
+    display: flex;
+    align-items: center;
+}
+
+.Feane {
+    margin-top: 90px;
+    align-items: center;
+    width: 200px;
+    color: #FF9900;
+    height: 250px;
+    text-align: center;
+}
+
+.footer-img {
+    width: 70px;
+    height: 15px;
+}
+
+.Feane h1 {
+    font-family: monospace;
+}
+
+.detail {
+    padding-bottom: 20px;
+    text-align: center;
+    color: grey;
+}
+
+
+/*Menu File*/
+.div-h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.burger-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    gap: 40px;
+    padding: 10px;
+}
+
+.pizza-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    gap: 40px;
+    padding: 10px;
+}
+
+.chicken-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    gap: 40px;
+    padding: 10px;
+}
+
+.rice-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    gap: 40px;
+    padding: 10px;
+}
+
+
+.box-menu-img {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid #03254c 5px;
+}
+
+.box h3 {
+    font-size: 25px;
+    padding-left: 32%;
+}
+
+.box p {
+    padding: 10px;
+}
+
+.box-menu-img:hover {
+    width: 105px;
+    height: 105px;
+}
+
+.rate h3 {
+    color: #03254c;
+    margin-left: -25%;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rate p {
+    margin-top: 3px;
+}
+
+.rate button {
+    border-radius: 50%;
+    background-color: #FF9900;
+}
+
+.rate img {
+    width: 22px;
+    height: 22px;
+}
+
+
+/* Book table*/
+
+
+.booktable-h1 {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.booktable-container {
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 30px;
+    text-align: center;
+    width: 450px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.inside-booktable-container input {
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 400px;
+    background: transparent;
+    border-radius: 5px;
+    color: #000;
+    height: 30px;
+}
+
+.inside-booktable-container option {
+    background: transparent;
+}
+
+.inside-booktable-container select {
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    background: transparent;
+    margin-left: 10px;
+    width: 400px;
+    color: #000;
+    height: 30px;
+}
+
+.inside-booktable-container button {
+    color: #000;
+    margin-top: 30px;
+    background-color: #FF9900;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: -70%;
+}
+
+/* Login Page  */
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 60%;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 80px;
+    margin-left: 13%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#fo-d {
+    margin-top: 45px;
+    margin-left: -40px;
+    background-color: white;
+    opacity: 1;
+    padding: 10px;
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#fo-d h1 {
+    text-align: center;
+    color: #000;
+}
+
+#fo-d p {
+    margin-left: 60px;
+    color: #000;
+}
+
+#fo-d input {
+    border-radius: 10px;
+    margin-left: 60px;
+    background: black;
+    color: white;
+    width: 250px;
+}
+
+#fo-d button {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 250px;
+    height: 20px;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    background-color: #FF9900;
+}
+
+#img-log {
+    width: 80%;
+    height: 100%;
+    z-index: 2;
+}
+
+@media screen and (max-width:700px) {
+    .navbar-menus {
+        display: none;
+    }
+
+    .side-list img {
+        display: block;
+        margin-right: 50%;
+        align-items: center;
+    }
+
+    .box {
+        flex-direction: row;
+    }
+
+    .offer-container {
+        flex-direction: row;
+    }
+
+    .about-box img {
+        display: none;
+    }
+
+    .form-container img {
+        display: none;
+    }
+
+}
